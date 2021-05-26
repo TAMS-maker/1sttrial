@@ -17,7 +17,8 @@ html, body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  clip-path: circle( 70.2% at 50% -16%);
+  clip-path: polygon(100% 0%, 74% 0%, 30% 0%, 0% 0%, 0% 25%, 0% 49%, 0% 66%, 21% 74%, 43% 77%, 63% 77%, 82% 71%, 100% 62%, 100% 45%, 100% 25%);
+ 
 }
 
 #bold{
