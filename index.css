@@ -8,34 +8,29 @@ html, body{
     padding: 0;
 }
 
-
 #bg{
   
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-bottom-left-radius: 90% 25vh;
-  border-bottom-right-radius: 90% 25vh;
-  height: 90vh;
-}
-/*
- #bg{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  clip-path: polygon(100% 0%, 74% 0%, 30% 0%, 0% 0%, 0% 25%, 0% 49%, 0% 66%, 21% 74%, 43% 77%, 63% 77%, 82% 71%, 100% 62%, 100% 45%, 100% 25%);
-  height: 100vh;
+  height: 80vh;
 }
 
-}*/
-
-/*Navbar CSS*/
+/*Navbar CSS left*/
 
 #h1 :hover{
 
   color:#fba419;
   
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #fba419;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0;
 }
 
 
@@ -52,10 +47,7 @@ a{
   text-decoration: none;
 }
 
-#card-link :hover{
-  color:#fba419;
-}
-
+/*Navbar CSS right*/
 
 li a:hover{
   color:#fba419;
@@ -65,14 +57,29 @@ li{
   font-size: small;
 }
 
-.dot {
-    height: 15px;
-    width: 15px;
-    background-color: #fba419;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0;
+
+
+
+  /*hover in btn "EXPLORE"*/
+
+  button:hover {
+    background: #fba419;
   }
+
+  .btn{
+    background: white;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    
+   
+  }
+  
+  
+
+  /*toggler*/
+
 
   .custom-toggler-icon span {
     display: block;
@@ -96,6 +103,8 @@ li{
     background: rgb(251, 164, 25);
   }
 
+
+    /*center font*/
   #bacolod{
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
@@ -104,27 +113,21 @@ li{
 
 
 
+  /*card*/
 
-
-
-
-
-#img-top{
+  #img-top{
   
-  max-height: 30vh;
-  object-fit: cover;
-}
-
-.btn{
-  background: white;
-  border-radius: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border: none;
+    max-height: 30vh;
+    object-fit: cover;
+  }
   
- 
-}
+  
 
-button:hover {
-  background: #fba419;
-}
+  #card-link :hover{
+    color:#fba419;
+  }
+  
+
+
+
+
