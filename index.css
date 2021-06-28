@@ -13,7 +13,14 @@ html, body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 80vh;
+  height: 100vh;
+}
+
+
+.navbar-brand :hover{
+  color:#fba419;
+
+
 }
 
 /*Navbar CSS left*/
@@ -39,6 +46,7 @@ html, body{
 }
 
 *{
+  
   font-family: 'Lato', sans-serif;
 }
 
@@ -62,7 +70,7 @@ li{
 
   /*hover in btn "EXPLORE"*/
 
-  button:hover {
+  .col-12 button:hover {
     background: #fba419;
   }
 
